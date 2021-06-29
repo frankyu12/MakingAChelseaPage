@@ -1,0 +1,13 @@
+#header{
+    display: flex;
+    background-color: blue;
+}
+.header_nav{
+    color: white;
+    margin-left:7%;
+    font-size: 12px;  
+    font-weight: 800;
+}
+.header_nav p{
+
+}
