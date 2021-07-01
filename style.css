@@ -457,7 +457,9 @@ margin-left: 200px;
 .matches_main{
     border: solid 10px #001489;
     width: 1337px;
-    height: 293px;
+    height: 400px;
+    display: flex;
+    margin-left: 250px;
 }
 .lastMatch_title p {
     font-family: Arial,Helvetica,sans-serif;
@@ -486,5 +488,264 @@ margin-left: 200px;
     display: flex;
 }
 #matches > div.matches_main > span:nth-child(1) > div:nth-child(5){
-    margin-top: 10px;
+    margin-top: 30px;
+}
+.lastMatchLink p {
+    display: inline-block;
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #03f;
+    margin-left: 1rem;
+}
+.verticalLine{
+    border-right: 2px solid rgb(197, 197, 197);
+    width: 400px;
+    height: 280px;
+}
+.nextMatch_title p{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    color: #001489;
+    letter-spacing: 1.1px;
+    font-weight: 700;
+}
+.nextMatch_subtitle{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    letter-spacing: 1.1px;
+    font-weight: 300;
+}
+.verticalLine1{
+    border-right: 1px solid gray;
+    
+    width: 290px;
+
+}
+.pos{
+    display: flex;
+}
+.pos p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: .6875rem;
+    color: #151211;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+}
+.team {
+    display: flex;
+    position: relative;
+    bottom: 20px
+
+}
+.team img{
+    width: 25px;
+    height: 25px;
+    margin-top:16px;
+    margin-left: 30px;
+}
+
+.prleage_title p{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    color: #001489;
+    letter-spacing: 1.1px;
+    font-weight: 700;
+}
+#matches > div.matches_main > span > div.pos > p:nth-child(1){
+    margin-left: 17px;
+}
+#matches > div.matches_main > span > div.pos > p:nth-child(2){
+    margin-left: 50px;
+}
+#matches > div.matches_main > span > div.pos > p:nth-child(3){
+    margin-left: 100px;
+}
+#matches > div.matches_main > span > div.pos > p:nth-child(4){
+    margin-left: 30px;
+}
+#matches > div.matches_main > span > div.pos > p:nth-child(5){
+    margin-left: 30px;
+}
+.team p:nth-child(1){
+    margin-left: 22px;
+}
+.team p:nth-child(2){
+    margin-left: 22px;
+}
+.team p:nth-child(3){
+    margin-left: 10px;
+}
+.verticalLine{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    position: relative;
+}
+.lastMatchBox p{
+    position: absolute;
+    border: 0px solid;
+    left: 630px;
+    background-color: #03f;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+    top: 160px;
+    margin-top: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#matches > div.matches_main > div:nth-child(1) > span > div:nth-child(4) > p.score{
+    position: absolute;
+    left:680px;
+}
+#matches > div.matches_main > div:nth-child(1) > span > div:nth-child(5) > p.score{
+    position: absolute;
+    left: 680px;
+}
+#matches > div.matches_main > div:nth-child(1) > span > div.lastMatchLink > p{
+    position: absolute;
+    left: 580px;
+    top: 430px;
+
+}
+.nextMatchBox p{
+    position: absolute;
+    border: 0px solid;
+    left: 1080px;
+    background-color: #03f;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+    top: 165px;
+    margin-top: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#matches > div.matches_main > div:nth-child(1) > span > div:nth-child(4){
+    margin-top: 40px;
+}
+#matches > div.matches_main > div:nth-child(2) > span > div.verticalLine1 > div:nth-child(1){
+    margin-top: 40px;
+}
+#matches > div.matches_main > div:nth-child(2) > span > div.verticalLine1 > div.matches_date > span:nth-child(1){
+    font-family: "Basis Grotesque Regular",Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .3px;
+    font-size: 2rem;
+    line-height: 1;
+    color:#03f;
+    position: absolute;
+    left: 320px;   
+    top: 100px;
+}
+#matches > div.matches_main > div:nth-child(2) > span > div.verticalLine1 > div.matches_date > span:nth-child(2){
+    font-size: .625rem;
+    font-weight: 900;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    color:#03f;
+    position: absolute;
+    left: 330px; 
+    top: 130px;
+}
+.prleage{
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#matches > div.matches_main > div:nth-child(1) > span > div.lastMatchLink > p{
+    position: absolute;
+    left: 250px;
+    top: 250px;
+
+
+}
+#matches > div.matches_main > span > div.lastMatchLink > p{
+    position: absolute;
+    left: 1460px;
+    top: 340px;
+}
+.prleage_score{
+    display: flex;
+}
+.prleage_score p:nth-child(1){
+    position: absolute;
+    left: 200px;
+}
+.prleage_score p:nth-child(2){
+    position: absolute;
+    left: 245px;
+}
+.prleage_score p:nth-child(3){
+    position: absolute;
+    left: 305px;
+}
+.next_match p{
+    position: absolute;
+    border: 0px solid;
+    left: 750px;
+    background-color: rgb(182, 3, 3);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+    top: 30px;
+    margin-top: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.next_match_clock p{
+    font-family: "Basis Grotesque Regular",Arial,Helvetica,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: .3px;
+    color: #140a47;
+    letter-spacing: .3px;
+    margin-left: 870px;
+    position:absolute ;
+    top: 20px;
+    
+}
+#matches > div.matchTitle > p{
+    position: absolute;
+    border: solid 0px black;
+    background-color: #ebe6df;
+    font-size: 40px;    
+    font-weight: bold;
+    left: 810px;
+    text-align: center;
+    bottom: 350px;
+    width: 220px;
+}
+#matches > div.matches_main > div:nth-child(1) > span > div.lastMatchBox > p{   
+    left: 300px;
+    top: 20px;
+}
+#matches > div.matches_main > div:nth-child(2) > span > div.nextMatchBox > p{
+    top: 20px;
+    left: 300px;
+}
+.matches_samsung_img img{
+    width: 281px;
+    height: 123px;
+    position: absolute;
+    top: 2754px;
+    left: 800px;
 }
