@@ -1,5 +1,9 @@
+.body {
+    background-color: #ebe6df;
+}
 #wrapper {
     position: relative;
+    background-color: #ebe6df;
 }
 #header{
     display: flex;
@@ -77,8 +81,11 @@ div.nav_icons_login > div:nth-child(3) > p{
 .nav_icon i{
     position: absolute;
     left: 1450px;
-    top: 22px;
+    top: 20px;
     color: white;
+}
+.nav_icon i:hover{
+    color: #001489;
 }
 .slide_img_test img{
     width: 1903px;
@@ -105,3 +112,131 @@ div.nav_icons_login > div:nth-child(3) > p{
     font-size: 25px;
     font-weight: bold;
 }
+.login_sub_text{
+    margin-left: 150px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Basis Grotesque Medium",Arial,Helvetica,sans-serif;
+    
+}
+.login_sub_text:hover{
+    color:#001489;;
+    text-decoration: underline #001489 2px;
+}
+#nav_bar > div.nav_icons_login > div:nth-child(5) > p{
+    position: absolute;
+    left: 1630px;
+}
+.line{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#nav_bar > div.nav_icons_login > div:nth-child(2){
+    position:absolute;
+    left: 1490px;
+    top: 16px;
+}
+
+#nav_bar > div.nav_icons_login > div:nth-child(4){
+    position:absolute;
+    left: 1580px;
+    top: 16px;
+}
+#nav_bar > div.nav_icons_login > span:nth-child(5) > p{
+    position: absolute;
+    right: 230px;
+}
+
+
+#video_bar{
+    position: absolute;
+    top: 700px;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 630px;
+    border: 0px solid;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 530px;
+}
+.video{
+    border: 0px solid;
+    margin-left: 3px;
+    height: 400px;
+    
+}
+.video_img img{
+    width: 350px;
+    height: 400px;
+}
+.video_genre  p{
+    position: absolute;
+    border: 0px solid;
+    margin-top: 0px;
+    background-color: #001489;
+    color: white;
+    font-size: 15px;
+    font-weight: Bold;
+    top: 40px;
+    margin-left:10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+}
+.video_title h1{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    top: 280px;
+    margin-left: 5px;
+}
+.video_date p{
+    color:rgb(197, 194, 194);
+    font-size: 15px;
+    position: absolute;
+    top: 380px;
+    margin-left: 10px;
+}
+.video_button{
+    background-color: #03f;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left: 305px;
+    top: 385px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+
+
+}
+.video_button i{
+    color:white;
+    position: absolute;
+    top: 4px;
+    bottom: 15px;
+    
+    margin-right: 10px;
+    left: 17px;
+}
+.moreVideoBtn{
+    position: absolute;
+    right: 37%;
+    top:460px;
+    background-color:white;
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    font-size: .9rem;
+    color: #03f;
+    font-weight: bold;
+    border: solid 1px #03f;
+    
+}
+
