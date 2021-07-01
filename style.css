@@ -1,13 +1,107 @@
+#wrapper {
+    position: relative;
+}
 #header{
     display: flex;
-    background-color: blue;
+    background-color: #001489;
+    position: absolute;
+    height: 30px;
 }
 .header_nav{
     color: white;
-    margin-left:7%;
+    margin-left:44px;
     font-size: 12px;  
-    font-weight: 800;
+    font-weight: 900;
+    font-family: "Basis Grotesque Bold",Arial,Helvetica,sans-serif;
+    position: relative;
+    bottom: 7px
 }
-.header_nav p{
+.header_nav p:hover{
+    text-decoration: underline 3px;
+    
+}
+#header > span:nth-child(1) > p{
+    margin-left: 300px;
+}
+.header_img{
+    position: relative;
+    left: 100px;
+    top: 0px;
+}
+#nav_bar{
+    display: flex;
+    font-family: "Basis Grotesque Medium",Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 31px;
+}
+#nav_bar:hover{
+    background-color: antiquewhite;
+}
+.nav_main{
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+}
+.nav_icons_login{
+    display: flex;
+    
+}
+#nav_bar > div.nav_main > span:nth-child(1) > p{
+    margin-left: 200px;
+    
+    
+}
+.nav_main_text{
+    margin-left: 50px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Basis Grotesque Medium",Arial,Helvetica,sans-serif;
+}
 
+div.nav_icons_login > div:nth-child(2) > p{    
+    margin-left: 130px;
+    color: white;    
+}
+div.nav_icons_login > div:nth-child(3) > p{
+    margin-left: 10px;
+    color: white;
+    
+}
+.login_sub_text{
+    font-family: "Basis Grotesque Medium",Arial,Helvetica,sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+.nav_icon i{
+    position: absolute;
+    left: 1450px;
+    top: 22px;
+    color: white;
+}
+.slide_img_test img{
+    width: 1903px;
+    height: 650px;
+    position: absolute;
+    top:20px;
+    z-index: -1;
+}
+.nav_bar_img img{
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+}
+.nav_main_text:hover {
+    color:#001489;;
+    text-decoration: underline #001489 2px;
+}
+.slide_img_text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 510px;
+    left: 25%;
+    font-size: 25px;
+    font-weight: bold;
 }
